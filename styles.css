@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    align-items:center;
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+    margin-top: 100px;
+}
+.titulo{
+    background-color:rgb(17, 17, 17);
+    color: #f7eeee;
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(3, 4, 5);
+}
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.container {
+    width: 1000px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   }
+.logo{
+    max-width: 800px;
+    display: block;
+    align-items:center;
+    height: auto;
+    background-color: rgb(9, 11, 14);
+}
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+    float: center;
+}
+ul{ list-style: none;}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.navbar li {
+    margin-right: 5px;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #6aa7ee;
+    flex-direction: row;
+    float: right
+}
+
+.inicio{
+    background-color: #0a0a0a;
+}
+.sobre {
+    background-color: #0a0a0a;
+}
+
+.servicios {
+    background-color: #000000;
+}
+
+.contactanos{
+    background-color: #000000;
+}
+
+
+h1 {
+    color: #fcf2f2;
+    text-align: center;
+    font-size: xx-large;
+    
+
+}
+
+p {
+    
+    text-align: center;
+    color: #f7eeee;
+    font-size:x-large;
+    font-weight: lighter;
+
+}
+
+    .footer{
+        background-color: #212b2c;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: row;
+    font-size: medium;
+    }
+    .footer p {
+        margin: 0;
+        color: #e7eeed;
+       }
+    
+    
+       .footerbar {
+        text-align: center;
+
+        background-color: #101013e0;
+        color: white;
+        
+        float: inline;
+        flex-direction: row;
+    }
+    .menu, .footerbar{
+    background-color: #212b2c;
+    
+    text-align: center;
+    flex-direction: row;
+    font-size: medium;
+    width: 1200px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    }
+    .footer{
+        background-color: #212b2c;
+    margin: 0%;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    flex-direction: row;
+    font-size: medium;
+    
+    }
+    
+    .menu a, .footerbar a{
+        display:flex;
+        color: #fffcfc;
+        text-decoration: none;
+        float: left;
+        text-align: center;
+        flex-direction: row;
+    }
+    .menu a:hover, .footerbar a:hover{
+    background-color: #2f2e3a;
+    }
+    
+    
+
+
+li {
+    float: center;
+    list-style: none;
+    color: #e7eeed;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logo2{ 
+    height: auto;
+    width: 60px;
+    clip-path: circle(50% at 50% 50%);
+float: left;
+}
+h2{
+    float: left;
+    display: flex;
+}
+form{
+    display: flexbox;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    color: #eeeaea;
+
+}
+form label{
+    align-self: flex-start;
+    color: #eeeaea;
+}
+form input, form textarea{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 5%;
+    border: 1px solid cornsilk;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px;
+    color: #121113;
+
+}
+ form button{
+ padding: 10px 20px;
+color: #fffbfb;
+background-color: #0cb4f742;
+border: #03092e;
+border-radius: 100px;
+cursor: pointer;
+align-items: center;
+float:right
+ }
+ form button:hover{
+    background-color: #3788da;
+    color: #faf7f7;
+ }
+ h2{
+    color: #e7eeed;
+    text-align: center;
+ }
+ h3{
+    color: #f8f7f7;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+
+ }
+ .contenedor-imagen {
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #03032c;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #f8f8f8;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    padding: auto;
+}
+figure {
+    margin: 70px;
+    padding: 60px;
+    background-color: #090547;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+.icon{
+    height: auto;
+    width: 1%;
+    clip-path: circle(50% at 50% 50%);
+float: right;
+}
+.video{
+    float: inline-start;
+    width: 1000px;
+}
+.logo3{
+    margin-top: 100px;
+    max-width: 1000px;
+    display: block;
+    align-items:center;
+    height: auto;
+    background-color: rgb(9, 11, 14);
+    height: auto;
+    margin-right: 10px;
+    float: center;
+}
+.quote{
+    float: inline-end;
+    margin-right: 100px;
+}
+.sobremi{
+width: 250px;
+height: auto;
+align-items: center;
+display: block;
+margin-bottom: 100px;
+float: right;
+
+}
+.sobre1{
+    margin: 1000px;
+    width: 100px;
+}
+.sobre2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.hsm{
+font-size: xx-large;
+}
+.myphoto{
+    color: #fdfbfb;
+        margin: 1px;
+        padding: 1px;
+        background-color: 03032c;
+        height: auto;
+        overflow: hidden;
+        border: 1px  #03032c;
+        border-radius: 2px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        color: #f8f8f8;
+}
+.insta{
+    color: #53bff1;
+}
