@@ -334,3 +334,18 @@ font-size: xx-large;
 .insta{
     color: #53bff1;
 }
+main {
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+    text-justify:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+}
+
+
+
+.salud{
+    text-align: center;
+}
