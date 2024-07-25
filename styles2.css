@@ -20,7 +20,7 @@ body {
     box-shadow: 0 2px 4px rgb(3, 4, 5);
 }
 header {
-    background-color: #333;
+    background-color: #1c1d1d;
     color: rgb(255, 255, 255);
     padding: 10px;
     position: fixed;
@@ -34,6 +34,8 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    background-color: #1c1d1d;
+
     float: right;
 }
 .container {
@@ -57,7 +59,7 @@ header {
 }
 ul{ list-style: none;}
 .navbar {
-    background-color:  #1c1d1d;
+    background-color: #1c1d1d;
     padding: 10px;
     }
     
@@ -65,12 +67,16 @@ ul{ list-style: none;}
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #1c1d1d;
+
     display: flex;
     justify-content: space-around;
     }
     
     .navbar ul li {
     display: inline;
+    background-color: #1c1d1d;
+
     }
     
     .navbar ul li a {
@@ -221,7 +227,6 @@ float:right
     height: 100%;
     object-fit: cover;
     margin: auto;
-    padding: auto;
 }
 figure {
     margin: 70px;
@@ -308,4 +313,11 @@ main{
 }
 .quote1{
    align-self: self-end;
+}
+@media screen and (max-width:600px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
 }
